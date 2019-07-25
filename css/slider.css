@@ -8,6 +8,11 @@
   overflow: hidden;
 }
 
+.slider a {
+    padding: 3rem 0 0 0;
+    font-size: 2rem;
+}
+
 .slides {
   display: flex;
   overflow-x: auto;
@@ -34,9 +39,9 @@
   scroll-snap-align: start;
   flex-shrink: 0;
   width: 1300px;
-  height: 500px;
+  height: 600px;
   margin-right: 50px;
-  background: #eee;
+  background: #e5c39c;
   position: relative;
   
   display: flex;
