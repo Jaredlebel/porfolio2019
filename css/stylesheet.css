@@ -46,15 +46,12 @@ section {
 }
 
 .intro-ban {
-    padding: 10% 0 15%;
-}
-
-.intro-ban p {
-    padding-left: 30rem;
+    padding: 10% 0 12%;
 }
 
 h1 {
-    font-family: antique-olive-nord, sans-serif;
+    font-family: aurea-ultra, serif;
+    /*font-family: antique-olive-nord, sans-serif;*/
     font-size: 3.5rem;
     font-weight: 400;
     font-style: normal;
@@ -73,20 +70,26 @@ h2 {
 
 h3 {
     font-family: antique-olive-nord, sans-serif;
-    font-size: 1.75rem;
     font-weight: 400;
+    font-size: 1.75rem;
     font-style: normal;
     line-height: 1;
     padding-bottom: 2rem;
 }
 
 p {
-    font-family: input-mono, monospace;
-    font-weight: 100;
+    font-family: haboro-serif-extended, serif;
+    font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
+    line-height: 1.5;
     color: #2e2e2e;
     padding-bottom: 2rem;
+}
+
+.monospace {
+    font-family: input-mono, monospace;
+    font-size: 1rem;
 }
 
 img {
@@ -106,7 +109,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    color: #f82c2c;
+    background-color: #f82c2c;
 }
 
 .study {

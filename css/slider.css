@@ -4,7 +4,7 @@
 
 .slider {
   width: 100%;
-  text-align: left;
+  text-align: right;
   overflow: hidden;
 }
 
@@ -35,13 +35,15 @@
   flex-shrink: 0;
   width: 100%;
   margin-right: 50px;
-  background: #e5c39c;
+  background: #2e2e2e;
   position: relative;
-  
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 100px;
+}
+
+.slides img {
+    width: 100%;
 }
 
 .slider > a {
@@ -52,7 +54,7 @@
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    margin: 1.5rem 1.5rem 1.5rem 0;
+    margin: 2.5rem 0 2.5rem 1.5rem;
     position: relative;
 }
 
