@@ -1,34 +1,92 @@
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+}
+@charset "UTF-8";
+.wf-loading {visibility:hidden;}
+.wf-active, .wf-inactive {visibility: visible}
+@-moz-viewport {width: device-width; scale:1;}
+@-ms-viewport {width: device-width; scale:1;}
+@-webkit-viewport {width: device-width; scale:1;}
+@viewport {width: device-width; scale:1;}
+
+html {font-size: 100%; width: 100%; overflow-x: hidden;}
+
 body {
     font-size: 1rem;
     font-family: Helvetica, sans-serif;
     color: #000000;
-    padding: 1rem;
-    max-width: 1300px;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern=1";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+.container {
+    width: 80%;
+    max-width: 87rem;
     margin-left: auto;
     margin-right: auto;
 }
 
+.no-list {
+    list-style-type: none;
+}
+
+section {
+    padding: 15% 0;
+}
+
+.intro-ban {
+    padding: 10% 0 15%;
+}
+
+.intro-ban p {
+    padding-left: 30rem;
+}
+
 h1 {
-    font: 5rem Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: antique-olive-nord, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1;
+    padding-bottom: 2rem;
 }
 
 h2 {
-    font: 4rem Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: antique-olive-nord, sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1;
+    padding-bottom: 2rem;
 }
 
 h3 {
-    font: 2.75rem Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: antique-olive-nord, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1;
+    padding-bottom: 2rem;
 }
 
 p {
+    font-family: input-mono, monospace;
+    font-weight: 100;
+    font-style: normal;
     font-size: 1.5rem;
     color: #2e2e2e;
+    padding-bottom: 2rem;
 }
 
 img {
@@ -42,9 +100,10 @@ a {
 
 
 a:link, a:visited {
-    color: #f82c2c;
+    color: #b79b00;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
-
 
 a:hover, a:active {
     color: #f82c2c;
@@ -53,5 +112,29 @@ a:hover, a:active {
 .study {
     font-family: Courier, Monaco, monospace;
     font-size: 0.8rem;
-    margin: 10rem 0 0 0;
+}
+
+#study-1 {
+    background-color: #2e2e2e;
+    color: #fff;   
+}
+
+#study-1 p {
+    color: #fff;   
+}
+
+@media only screen and (min-width:40rem) {
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .col-left {
+        width: 30%;
+    }
+    
+    .col-right {
+        width: 60%
+    }
 }
