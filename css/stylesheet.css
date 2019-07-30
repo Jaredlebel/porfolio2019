@@ -186,7 +186,7 @@ p {
     color: #fff;   
 }
 
-#study-1 p {
+#study-1 p, h2 {
     color: #fff;   
 }
 
@@ -201,6 +201,19 @@ p {
 
 #study-2 p, h2{
     color: #efdfc2;   
+}
+
+#study-3 {
+    background-color: #e3d876;
+    background-image: url(/images/hero-bg-light.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;   
+}
+
+#study-3 p, h2{
+    color: #041e42;   
 }
 
 @media only screen and (min-width:40rem) {
