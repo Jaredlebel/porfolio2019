@@ -52,11 +52,11 @@ body {
 }
 
 .nav a {
-  color: #2e2e2e;
-  text-align: right;
-  padding: 0.2rem 1rem;
-  text-decoration: none;
-  font-size: 1rem;
+    color: #2e2e2e;
+    text-align: right;
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
     border: 3px solid #ededed;
 }
 
@@ -171,6 +171,10 @@ p {
 
 #study-1 {
     background-color: #101820;
+    background-image: url(/images/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;   
 }
 
@@ -180,11 +184,15 @@ p {
 
 #study-2 {
     background-color: #201547;
+    background-image: url(/images/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #674052;   
 }
 
-#study-2 p {
-    color: #674052;   
+#study-2 p, h2{
+    color: #efdfc2;   
 }
 
 @media only screen and (min-width:40rem) {
