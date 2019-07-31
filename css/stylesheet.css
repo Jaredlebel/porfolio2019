@@ -186,8 +186,8 @@ p {
     color: #fff;   
 }
 
-#study-1 p, h2 {
-    color: #fff;   
+#study-1 p, #study-1 h2 {
+    color: #A67CFB;   
 }
 
 #study-2 {
@@ -199,7 +199,7 @@ p {
     color: #674052;   
 }
 
-#study-2 p, h2{
+#study-2 p, #study-2 h2{
     color: #efdfc2;   
 }
 
@@ -212,11 +212,24 @@ p {
     color: #fff;   
 }
 
-#study-3 p, h2{
+#study-3 p, #study-3 h2{
     color: #041e42;   
 }
 
-@media only screen and (min-width:40rem) {
+#study-4 {
+    background-color: #001E62;
+    background-image: url(/images/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;   
+}
+
+#study-4 p, #study-4 h2{
+    color: #efdfc2;   
+}
+
+@media only screen and (min-width:60rem) {
     .flex-row {
         display: flex;
         flex-direction: row;
