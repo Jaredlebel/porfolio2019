@@ -60,11 +60,11 @@ body {
     border: 3px solid #ededed;
 }
 
-a {
+.nav a {
     text-decoration: none;
 }
 
-a:hover, a:active {
+.nav a:hover, a:active {
     border: 3px solid #f82c2c;
 }
 
@@ -227,6 +227,45 @@ p {
 
 #study-4 p, #study-4 h2{
     color: #efdfc2;   
+}
+
+.logos {
+    background-color: #fff;
+}
+
+.footer {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2e2e2e;
+    color: #ededed;
+    text-align: center;
+    padding: 4rem;
+}
+
+.footer p {
+    color: #ededed;
+    font-size: 1rem;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 0 2rem;
+    font-weight: 700;
+}
+
+.footer a {
+    text-align: center;
+    text-decoration: none;
+    color: #ededed;
+}
+
+.footer a:hover, a:active a:visited {
+    color: #ededed;
+    opacity: 0.5;
 }
 
 @media only screen and (min-width:60rem) {
