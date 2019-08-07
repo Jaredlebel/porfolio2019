@@ -77,6 +77,12 @@ body {
     float: right;
 }
 
+a {
+    font-family: benton-sans-wide, sans-serif;
+    text-align: center;
+    color: #ededed;
+}
+
 section {
     padding: 12% 0;
 }
@@ -152,8 +158,8 @@ p {
     font-family: benton-sans-wide, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.25rem;
-    line-height: 1.6;
+    font-size: 1.2rem;
+    line-height: 1.65;
     color: #2e2e2e;
     padding-bottom: 2rem;
 }
@@ -166,15 +172,17 @@ p {
     color: #fff;
 }
 
-.monospace {
-    font-family: turnip, serif;
+.mono {
+    font-family: base-mono-wide, monospace;
     font-weight: 100;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .study {
-    font-family: Courier, Monaco, monospace;
-    font-size: 0.8rem;
+    font-family: base-mono-wide, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
 }
 
 #study-1 {
@@ -229,6 +237,23 @@ p {
     color: #efdfc2;   
 }
 
+#study-5 {
+    background-color: #006341;
+    background-image: url(/images/hero-bg-ac.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;   
+}
+
+#study-5 p {
+    color: #43B02A;   
+}
+
+#study-5 h2{
+    color: #43B02A;   
+}
+
 .logos {
     background-color: #fff;
 }
@@ -263,7 +288,7 @@ p {
     color: #ededed;
 }
 
-.footer a:hover, a:active a:visited {
+.footer a:hover, .footer a:active, .footer a:visited {
     color: #ededed;
     opacity: 0.5;
 }
